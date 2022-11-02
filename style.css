@@ -1,0 +1,132 @@
+*
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: rebeccapurple;
+}
+html
+{
+    font-size: 62.5%;
+
+}
+
+body{
+    font-size: 2.6rem;
+}
+header{
+    width: 100vw;
+    height: 25vh;
+    background-color: #003476;
+}
+.logo
+{
+    width: 7vw;
+    height: 7vh;    
+} 
+container{
+    flex-wrap: wrap;
+}
+main{
+    width: 100%;
+    height: 20.5rem;
+    border: 1rem;
+    padding: 2rem 3.5rem;
+}
+
+main a
+{
+    width: 100%;
+    height: 500px;
+    border: 1rem solid black;
+    padding: 2rem 3.5rem;
+}
+
+.main-nav
+{
+    min-width: 100%;
+    margin-top: 1rem;
+    list-style: none;
+    padding-left: 0;
+    font-family: Arial;
+    /*para hacer anotaciones*/
+
+}
+.main-nav_item
+{
+
+    padding: 2rem;
+    display: inline-block;
+}
+.main-nav_item a
+{
+    font-size: 2rem;
+    font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 1rem;
+    color: black;
+    border-radius: 1rem;
+    text-decoration: none;
+    background-color: red;
+    text-align: left;
+    margin-right: 1.6vh;
+    padding-right: 1.6vh;
+    
+}
+.main-nav_item a:hover {
+    color:chartreuse;
+}
+.main-nav_item a:active {
+    color: darkturquoise;
+}
+.mueble
+{
+font-size: 2rem;
+    width: 20%;
+    padding: 1vw;
+    height: 50%;
+    color:yellow;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+#articulos 
+{
+    width: 19rem;
+    height: 21.5rem;
+
+  
+
+}
+.main-nav_item a:hover
+{
+    background-color:blue;
+  
+
+}
+
+.main-nav_item a:active
+{
+    color: black;
+}
+.espejo{
+   width: 100%;
+    color: yellow;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;  
+}
+.texto
+{
+    width: auto;
+    color: yellow;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+
+}
+footer{
+    width: 100vw;
+    height: 15vh;
+    background-color: #b4d2f7;
+}
+
+
+
+
